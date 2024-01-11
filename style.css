@@ -80,3 +80,50 @@ button {
       }
 
       i { cursor: pointer;}
+
+/*                          */
+
+#text  {
+
+
+  text-align: center;
+  position: relative;
+  animation: appear 1s;
+  top: 15px;
+
+}
+@keyframes appear {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 25;
+  }
+}
+@-moz-keyframes appear {
+  /* Firefox */
+  from {
+    top: -100px;
+  }
+  to {
+    top: 315px;
+  }
+}
+@-webkit-keyframes appear {
+  /* Safari and Chrome */
+  from {
+    top: -100px;
+  }
+  to {
+    top: 315px;
+  }
+}
+@-o-keyframes appear {
+  /* Opera */
+  from {
+    top: -100px;
+  }
+  to {
+    top: 315px;
+  }
+}
